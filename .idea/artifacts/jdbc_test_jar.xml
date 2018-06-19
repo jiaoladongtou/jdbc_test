@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="jdbc_test:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jdbc_test_jar</output-path>
+    <root id="root">
+      <element id="archive" name="jdbc_test.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/resources/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="jdbc_test" />
+      </element>
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.25" />
+    </root>
+  </artifact>
+</component>
